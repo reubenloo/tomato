@@ -11,7 +11,7 @@ $('#image-selector').change(function () {
 
 let model;
 (async function () {
-    model = await tf.loadLayersModel('http://localhost:81/tfjs-models/PlantVillage/model.json')
+    model = await tf.loadLayersModel('http://localhost:5000/tfjs-models/PlantVillage/model.json')
     $('.progress-bar').hide();
 })();
 
