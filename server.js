@@ -1,4 +1,4 @@
-let express = require("express");
+let express = require('express');
 let app = express();
 
 app.use(function (req, res, next) {
@@ -6,8 +6,8 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use(express.static("../static"));
+app.use(express.static('./'));
 
-app.listen(81, function() {
-    console.log("Serving static on 81");
+app.listen(3000, function() {
+    console.log('Serving static on 3000');
 });
