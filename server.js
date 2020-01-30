@@ -6,9 +6,11 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname + "/index.html"));
 });
 
+//serve static files
+app.use(express.static('public'))
+
+//logging
 app.use(function (req, res, next) {
-    //serve static files
-    express.static(__dirname + '/public');
     console.log(`${new Date()} - ${req.method} request for ${req.url}`);
     next();
 });
