@@ -10,6 +10,8 @@
 
 ## Acknowledgements
 Sincere acknowledgements to Mr Gary Chan (project facilitator), Dr Jimmy Goh (AI expert), Ms Grace Yap ([Temasek Foundation Scale Organizer](https://www.facebook.com/groups/TFSCALE/)), all other lecturers of [Republic Polytechnic](https://www.rp.edu.sg/soi) who helped in any part and my teammates.
+* [SP Mohanty](https://github.com/spMohanty/) - PlantVillage Dataset
 * [DeepLizard](https://deeplizard.com/learn/video/HEQDRWMK6yY) - TensorflowJS tutorial
 * [Traversy Media](https://www.youtube.com/watch?v=_GSOnHRYSS0) - ExpressJS tutorial
+
 
