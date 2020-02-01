@@ -1,3 +1,4 @@
+/*PlantVillage classes to be mapped to probability in predict.js*/
 const PlantVillage_Classes = {
     0: 'Tomato___Bacterial_spot',
     1: 'Tomato___Early_blight',
