@@ -13,5 +13,6 @@ Sincere acknowledgements to Mr Gary Chan (project facilitator), Dr Jimmy Goh (AI
 * [SP Mohanty](https://github.com/spMohanty/) - PlantVillage Dataset
 * [DeepLizard](https://deeplizard.com/learn/video/HEQDRWMK6yY) - TensorflowJS tutorial
 * [Traversy Media](https://www.youtube.com/watch?v=_GSOnHRYSS0) - ExpressJS tutorial
+* [Plant Natural](https://www.planetnatural.com) - Solutions for tomato leaf diseases
 
 
