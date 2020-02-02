@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
 });
 
 //serve static files
-app.use(express.static('public')
+app.use(express.static('public'))
 
 //logging
 app.use(function (req, res, next) {
