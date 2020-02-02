@@ -57,11 +57,5 @@ $('#button-1').click(async function () {
     document.getElementById('sol-1').style.display = 'visible';
 });
 
-/*
-function displayShow() {
-    if (('#button-1').click) {
-        document.getElementById('sol-1').style.display = 'visible';
-    }
-}
-*/
+
 
