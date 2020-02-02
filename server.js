@@ -4,7 +4,7 @@ const path = require('path')
 
 //http GET method route
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname + "/public/index.html"));
+    res.sendFile(path.join(__dirname, "/public/index.html"));
 });
 
 //serve static files
