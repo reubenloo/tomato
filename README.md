@@ -1,6 +1,6 @@
 # Tomato Leaf Disease Classification [Web App](http://206.189.38.229:5000)
 ## Overview
-8 categories of tomato leaves from [PlantVillage](https://github.com/spMohanty/PlantVillage-Dataset) as dataset to train the [Keras model](https://github.com/reubenloo/tomato/tree/master/KerasModel). It was then converted to a [TensorflowJS model](https://github.com/reubenloo/tomato/tree/master/public/tfjs-models/PlantVillage) and deployed using a [NodeJS Express server](https://github.com/reubenloo/tomato/blob/master/server.js) on [Digital Ocean](https://www.digitalocean.com/). [Solutions](https://www.planetnatural.com/pest-problem-solver/plant-disease) to remedy the diseases are provided as well.
+The dataset, which consists of 8 categories of tomato leaves from [PlantVillage](https://github.com/spMohanty/PlantVillage-Dataset) were used as dataset to train the [Keras model](https://github.com/reubenloo/tomato/tree/master/KerasModel). It was then converted to a [TensorflowJS model](https://github.com/reubenloo/tomato/tree/master/public/tfjs-models/PlantVillage) and deployed using a [NodeJS Express server](https://github.com/reubenloo/tomato/blob/master/server.js) on [Digital Ocean](https://www.digitalocean.com/). [Solutions](https://www.planetnatural.com/pest-problem-solver/plant-disease) to remedy the diseases are provided as well.
  
 ## Built With
 * [Keras](https://keras.io/) - High level neural network API, running on top of Tensorflow
