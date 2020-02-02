@@ -1,3 +1,7 @@
+//jquery & jsdom packages required for debugging
+//var jsdom = require('jsdom');
+//$ = require('jquery')(new jsdom.JSDOM().window);
+
 /*Function triggered when image is selected*/
 $('#image-selector').change(function () {
     let reader = new FileReader();
@@ -48,3 +52,16 @@ $('#predict-button').click(async function () {
         $('#prediction-list').append(`<li>${p.className}: ${p.probability.toFixed(6)}</li>`);
     });
 });
+
+$('#button-1').click(async function () {
+    document.getElementById('sol-1').style.display = 'visible';
+});
+
+/*
+function displayShow() {
+    if (('#button-1').click) {
+        document.getElementById('sol-1').style.display = 'visible';
+    }
+}
+*/
+

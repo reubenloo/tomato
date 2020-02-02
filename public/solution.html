@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<style>
+
+</style>
+
+<html>
+
+<head>
+    <title>PlantVillage Classification App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="solution.html">Solution</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+                <h1>Solution for diseases</h1>
+            </div>
+            <hr>
+            <div class="row">
+                <div>
+                    <h2>Bacterial Spot</h2>
+                    <button onclick="toggleVisibility('1')" class="btn btn-dark">Show</button>
+                </div>
+                <div id="1" style="display: none;">
+                    <p>There is no cure for plants infected with bacterial leaf spot. Preventive, organic measures
+                        include:</p>
+                    <ul>
+                        <li>Spraying with a baking soda solution (a tablespoon of baking soda, 2 1/2 tablespoons of
+                            vegetable oil, a teaspoon of liquid soap, not detergent, to one gallon of water), or <a
+                                href="https://www.planetnatural.com/product/organic-neem-oil/" target="_blank"
+                                rel="noopener noreferrer">neem oil</a> (do not use when pollinating insects including
+                            bees or other beneficial insects are present). Baking soda may burn some plant leaves. Spray
+                            only a few and then check for a reaction before applying applications every two weeks.</li>
+                        <li>Apply <a href="https://www.planetnatural.com/product/safer-garden-fungicide/"
+                                target="_blank" rel="noopener noreferrer">sulfur sprays</a> or <a
+                                href="https://www.planetnatural.com/product/liquid-copper-spray/" target="_blank"
+                                rel="noopener noreferrer">copper-based fungicides</a> weekly at first sign of disease to
+                            prevent its spread. These organic fungicides will not kill leaf spot, but prevent the spores
+                            from germinating.</li>
+                        <li>Safely treat most fungal and bacterial diseases with <a
+                                href="https://www.planetnatural.com/product/serenade-garden-disease-control/"
+                                target="_blank" rel="noopener noreferrer">SERENADE Garden</a>. This broad spectrum
+                            bio-fungicide uses a patented strain of <em>Bacillus subtilis</em> that is registered for
+                            organic use. Best of all, SERENADE is completely non-toxic to honey bees and beneficial
+                            insects.</li>
+                        <li>Containing copper and pyrethrins, <a
+                                href="https://www.planetnatural.com/product/garden-dust/" target="_blank"
+                                rel="noopener noreferrer">Bonide® Garden Dust</a> is a safe, one-step control for many
+                            insect attacks and fungal problems. For best results, cover both the tops and undersides of
+                            leaves with a thin uniform film or dust. Depending on foliage density, 10 oz will cover 625
+                            sq ft. Repeat applications every 7-10 days, as needed.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div>
+                    <h2>Early Blight</h2>
+                    <button onclick="toggleVisibility('2')" class="btn btn-dark">Show</button>
+                </div>
+                <div id="2" style="display: none;">
+                    <ol>
+                        <li>Prune or stake plants to improve air circulation and reduce fungal problems.</li>
+                        <li>Make sure to disinfect your <a
+                                href="https://www.planetnatural.com/product-category/growing-indoors/grow-rooms/pruning-tools-snips/"
+                                target="_blank" rel="noopener noreferrer">pruning shears</a> (one part bleach to 4 parts
+                            water) after each cut.</li>
+                        <li>Keep the soil under plants clean and free of garden debris. Add a layer of <a
+                                href="https://www.planetnatural.com/product/organic-compost/" target="_blank"
+                                rel="noopener noreferrer">organic compost</a> to prevent the spores from splashing back
+                            up onto vegetation.</li>
+                        <li>Drip irrigation and <a href="https://www.planetnatural.com/product/soil-soaker-hose/"
+                                target="_blank" rel="noopener noreferrer">soaker hoses</a> can be used to help keep the
+                            foliage dry.</li>
+                        <li>For best control, apply <a
+                                href="https://www.planetnatural.com/product/liquid-copper-fungicide/" target="_blank"
+                                rel="noopener noreferrer">copper-based fungicides</a> early, two weeks before disease
+                            normally appears or when weather forecasts predict a long period of wet weather.
+                            Alternatively, begin treatment when disease first appears, and repeat every 7-10 days for as
+                            long as needed.</li>
+                        <li>Containing copper and pyrethrins, <a
+                                href="https://www.planetnatural.com/product/garden-dust/" target="_blank"
+                                rel="noopener noreferrer">Bonide® Garden Dust</a> is a safe, one-step control for many
+                            insect attacks and fungal problems. For best results, cover both the tops and undersides of
+                            leaves with a thin uniform film or dust. Depending on foliage density, 10 oz will cover 625
+                            sq ft. Repeat applications every 7-10 days, as needed.</li>
+                        <li><a href="https://www.planetnatural.com/product/serenade-garden-disease-control/"
+                                target="_blank" rel="noopener noreferrer">SERENADE Garden</a> is a broad spectrum,
+                            preventative bio-fungicide recommended for the control or suppression of many important
+                            plant diseases. For best results, treat prior to foliar disease development or at the first
+                            sign of infection. Repeat at 7-day intervals or as needed.</li>
+                        <li>Remove and <a href="https://www.planetnatural.com/garden-cleanup/" target="_blank"
+                                rel="noopener noreferrer">destroy all garden debris</a> after harvest and <a
+                                href="https://www.planetnatural.com/crop-rotation/" target="_blank"
+                                rel="noopener noreferrer">practice crop rotation</a> the following year.</li>
+                        <li>Burn or bag infected plant parts. Do <em>NOT</em> compost.</li>
+                    </ol>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div>
+                    <h2>Late Blight</h2>
+                    <button onclick="toggleVisibility('3')" class="btn btn-dark">Show</button>
+                </div>
+                <div id="3" style="display: none;">
+                    <ol>
+                        <li>Plant resistant cultivars when available.</li>
+                        <li>Remove volunteers from the garden prior to planting and space plants far enough apart to
+                            allow for plenty of air circulation.</li>
+                        <li>Water in the early morning hours, or use <a
+                                href="https://www.planetnatural.com/product/soil-soaker-hose/" target="_blank"
+                                rel="noopener noreferrer">soaker hoses</a>, to give plants time to dry out during the
+                            day &#8212; avoid overhead irrigation.</li>
+                        <li>Destroy all tomato and potato debris after harvest (see <a
+                                href="https://www.planetnatural.com/garden-cleanup/" target="_blank"
+                                rel="noopener noreferrer">Fall Garden Cleanup</a>).</li>
+                    </ol>
+                    <p>If symptoms are observed, treat plants with one of the following fungicides:</p>
+                    <ul>
+                        <li>Apply a <a href="https://www.planetnatural.com/product/liquid-copper-spray/" target="_blank"
+                                rel="noopener noreferrer">copper based fungicide</a> (2 oz/ gallon of water) every 7
+                            days or less, following heavy rain or when the amount of disease is increasing rapidly. If
+                            possible, time applications so that at least 12 hours of dry weather follows application.
+                        </li>
+                        <li>Used as a foliar spray, <a
+                                href="https://www.planetnatural.com/product/exel-lg-systemic-fungicide/" target="_blank"
+                                rel="noopener noreferrer">Organocide® Plant Doctor</a> will work its way through the
+                            entire plant to prevent fungal problems from occurring and attack existing many problems.
+                            Mix 2 tsp/ gallon of water and spray at transplant or when direct seeded crops are at 2-4
+                            true leaf, then at 1-2 week intervals as required to control disease.</li>
+                        <li>Safely treat fungal problems with <a
+                                href="https://www.planetnatural.com/product/serenade-garden-disease-control/"
+                                target="_blank" rel="noopener noreferrer">SERENADE Garden</a>. This broad spectrum
+                            bio-fungicide uses a patented strain of <em>Bacillus subtilis</em> and is approved for
+                            organic use. Best of all, SERENADE is completely non-toxic to honey bees and beneficial
+                            insects.</li>
+                        <li><a href="https://www.planetnatural.com/product/natural-disease-control/" target="_blank"
+                                rel="noopener noreferrer">Monterey® All Natural Disease Control</a> is a ready-to-use
+                            blend of naturally occurring ingredients that control most plant foliar diseases. All stages
+                            of the disease is controlled, but applying before infestation gives the best results.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div>
+                    <h2>Leaf Mold</h2>
+                    <button onclick="toggleVisibility('4')" class="btn btn-dark">Show</button>
+                </div>
+                <div id="4" style="display: none;">
+                    <ol>
+                        <li>Prune or stake plants to improve air circulation between plants. Make sure to disinfect your
+                            <a href="https://www.planetnatural.com/product-category/growing-indoors/grow-rooms/pruning-tools-snips/"
+                                target="_blank" rel="noopener noreferrer">pruning equipment</a> (one part bleach to 4
+                            parts water) after each cut.</li>
+                        <li>If growing indoors use a <a href="https://www.planetnatural.com/product/clip-on-fan/"
+                                target="_blank" rel="noopener noreferrer">small clip-on fan</a> to improve air flow.
+                        </li>
+                        <li>Keep the soil under plants clean and rake up any fallen debris.</li>
+                        <li>Add a good amount of <a href="https://www.planetnatural.com/product/organic-compost/"
+                                target="_blank" rel="noopener noreferrer">organic compost</a> or mulch under plants.
+                            Mulches will prevent the fungal spores from splashing back up onto flowers and leaves.</li>
+                        <li>Water in the early morning hours, or use a <a
+                                href="https://www.planetnatural.com/product/soil-soaker-hose/" target="_blank"
+                                rel="noopener noreferrer">soaker hose</a>, to give plants time to dry out during the
+                            day.</li>
+                        <li>Do not compost infected plant leaves or stems, and thoroughly <a
+                                href="https://www.planetnatural.com/garden-cleanup/" target="_blank"
+                                rel="noopener noreferrer">clean up garden areas in the fall</a> to reduce over wintering
+                            sites for the fungal spores.</li>
+                        <li><a href="https://www.planetnatural.com/product/liquid-copper-fungicide/" target="_blank"
+                                rel="noopener noreferrer">Copper-Soap fungicides</a> will help by protecting plants from
+                            disease spores. Apply at the start of flowering and continue every 7-10 days until harvest.
+                            Fungicidal sprays are especially warranted when weather forecasts predict a long period of
+                            cool, wet weather.</li>
+                        <li>Safely treat most fungal diseases, including <em>Botrytis</em> blight, with <a
+                                href="https://www.planetnatural.com/product/serenade-garden-disease-control/"
+                                target="_blank" rel="noopener noreferrer">SERENADE Garden</a>. This broad spectrum
+                            bio-fungicide uses a patented strain of <em>Bacillus subtilis</em> that is registered for
+                            organic use. Best of all, SERENADE is completely non-toxic to honey bees and beneficial
+                            insects.</li>
+                        <li><a href="https://www.planetnatural.com/product/mycostop/" target="_blank"
+                                rel="noopener noreferrer">Mycostop</a>, a biological fungicide approved for organic use,
+                            has shown suppression of the disease. Direct spray (5 gm/ 50 liters of water) to susceptible
+                            leaves, flowers and fruits to point of run-off. Apply every 2-3 weeks, or as needed
+                            depending on disease pressure.</li>
+                        <li><a href="https://www.planetnatural.com/product/green-cure-fungicide/" target="_blank"
+                                rel="noopener noreferrer">Green Cure Fungicide</a> contains a patented formula of
+                            potassium bicarbonate &#8212; commonly used in food products &#8212; that kills many plant
+                            diseases on contact and provides up to 2 weeks of residual protection. At first sign of
+                            disease, mix 1-2 Tbsp/ gallon of water and apply to all exposed surfaces of the plant. For
+                            best protection, repeat at 1-2 week intervals until conditions are no longer favorable for
+                            disease development.</li>
+                    </ol>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div>
+                    <h2>Yellow Leaf Curl Virus</h2>
+                    <button onclick="toggleVisibility('5')" class="btn btn-dark">Show</button>
+                </div>
+                <div id="5" style="display: none;">
+                    <ol>
+                        <li>Select resistant varieties whenever possible.</li>
+                        <li>Leaf curl can be controlled by applying <a
+                                href="https://www.planetnatural.com/product/sulfur-plant-fungicide/" target="_blank"
+                                rel="noopener noreferrer">sulfur</a> or <a
+                                href="https://www.planetnatural.com/product/liquid-copper-fungicide/" target="_blank"
+                                rel="noopener noreferrer">copper-based fungicides</a> that are labeled for use on
+                            peaches and nectarines. Spray the entire tree after 90% of the leaves have dropped in the
+                            fall and again in the early spring, just before the buds open. For best results, trees
+                            should be sprayed to the point of runoff or until they start dripping.</li>
+                        <li>Containing copper and pyrethrins, <a
+                                href="https://www.planetnatural.com/product/garden-dust/" target="_blank"
+                                rel="noopener noreferrer">Bonide® Garden Dust</a> is a safe, one-step control for many
+                            insect attacks and fungal problems. For best results, cover both the tops and undersides of
+                            leaves with a thin uniform film or dust. Depending on foliage density, 10 oz will cover 625
+                            sq ft. Repeat applications every 7-10 days, as needed.</li>
+                        <li>Keep the ground beneath the trees raked up and clean, especially during winter months.</li>
+                        <li>Prune and destroy infected plant parts as they appear.</li>
+                        <li>If disease problems are severe, maintain tree health and vigor by cutting back more fruit
+                            than normal, watering regularly (avoiding wetting the leaves if possible) and apply an <a
+                                href="https://www.planetnatural.com/product/fruit-tree-fertilizer-organic-9/"
+                                target="_blank" rel="noopener noreferrer">organic fertilizers high in nitrogen</a>.</li>
+                    </ol>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="https://www.planetnatural.com/pest-problem-solver/plant-disease">Credits</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var divs = ["1", "2", "3", "4", "5"];
+        var visibleDivId = null;
+        function toggleVisibility(divId) {
+            if (visibleDivId === divId) {
+                //visibleDivId = null;
+            } else {
+                visibleDivId = divId;
+            }
+            hideNonVisibleDivs();
+        }
+        function hideNonVisibleDivs() {
+            var i, divId, div;
+            for (i = 0; i < divs.length; i++) {
+                divId = divs[i];
+                div = document.getElementById(divId);
+                if (visibleDivId === divId) {
+                    div.style.display = "block";
+                } else {
+                    div.style.display = "none";
+                }
+            }
+        }
+
+        /*
+        function toggleVisibility() {
+            var x = document.getElementById("sol-1");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        */
+    </script>
+
+</body>
+
+</html>
