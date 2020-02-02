@@ -53,9 +53,5 @@ $('#predict-button').click(async function () {
     });
 });
 
-$('#button-1').click(async function () {
-    document.getElementById('sol-1').style.display = 'visible';
-});
-
 
 
