@@ -4,11 +4,11 @@ const path = require('path')
 
 //http GET method route
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
 //serve static files
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')));
 
 //logging
 app.use(function (req, res, next) {

@@ -2,6 +2,8 @@
   "name": "tensorflowjs",
   "version": "1.0.0",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "jsdom": "^16.1.0"
   }
 }
